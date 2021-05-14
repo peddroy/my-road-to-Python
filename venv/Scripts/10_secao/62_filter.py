@@ -92,7 +92,7 @@ produto_menor_dez = map(
 print(list(produto_menor_dez))
 
 
-'''
+
 
 from pprint import pprint
 print = pprint
@@ -147,3 +147,7 @@ tem_variacao_a_comprehension = [
     produto['variacoes'] if produto['variacoes'] == 'a' else 'no' for produto in produtos]
 
 print(tem_variacao_a_comprehension)
+
+'''
+
+print('ola')

@@ -70,4 +70,4 @@ alunos = ['maria', 'pedro', 'marlon']
 
 final = zip(alunos, map(lambda nota: max(nota), zip(prova1, prova2)))
 
-print(list(final))
+print(dict(final))

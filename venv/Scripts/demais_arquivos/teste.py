@@ -16,3 +16,7 @@ name = 'Geek University'
 
 for i in range(1, 11):
     print('\U0001F60D' * i)
+
+alt = 'realizando alteração nesse arquivo'
+
+print(alt)

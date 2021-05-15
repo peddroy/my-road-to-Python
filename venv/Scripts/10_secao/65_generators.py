@@ -13,7 +13,7 @@ Generator é mais performático do que Listcomprehension
 List comprehension gera uma lista que fica na memória
 
 
-
+1
 
 nomes = ['Carla', 'Cristina', 'Carlos', 'Champion', 'Caio']
 
@@ -34,7 +34,8 @@ print(res2)
 
 from sys import getsizeof
 
-# Pra que serve getsizeof? Retorna a quantidade de bytes em memória do elemento passado como parametro
+# Pra que serve getsizeof? Retorna a quantidade de 
+# bytes em memória do elemento passado como parametro
 
 #  Aqui mostra quantos bytes a string 'Geek' está ocupando em memória
 print(getsizeof('geek'))
@@ -45,7 +46,7 @@ print(getsizeof({x: x * 10 for x in range(1000)}))
 print(getsizeof(x * 10 for x in range(1000)))
 
 
-'''
+
 
 nomes = ['Carla', 'Carlos', 'Caio', 'Cibely', 'Vanessa']
 
@@ -62,3 +63,5 @@ print(fil)
 
 maps = list(map(lambda r: r[0] == 'C', [nome for nome in nomes]))
 print(maps)
+
+'''

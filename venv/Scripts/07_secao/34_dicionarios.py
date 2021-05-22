@@ -14,8 +14,8 @@ Dicionários são representados por {}
 
 
 
-#Criação de dicionários
-# Forma 1 - Mais comum
+#CRIAÇÃO DE DICIONÁRIOS
+# FORMA 1 - MAIS COMUM
 
 print(type({}))
 
@@ -24,21 +24,21 @@ paises = {'br': 'Brasil', 'eua': 'Estados Unidos', 'py': 'Paraguai'}
 print(paises)
 print(type(paises))
 
-#Forma 2 - Menos comum
+#FORMA 2 - MENOS COMUM
 
 paises = dict(br='Brasil', eua='Estados Unidos', py='Paraguai')
 print(paises)
 print(type(paises))
 
-#Acessando elementos
-#Forma 1 - Acessando via chave, da chave/valor, da mesma forma que lista/tupla
+#ACESSANDO ELEMENTOS
+#FORMA 1 - ACESSANDO VIA CHAVE, DA CHAVE/VALOR, DA MESMA FORMA QUE LISTA/TUPLA
 
 print(paises['br'])
 print(paises['py'])
 
 #print(paises['ru'])#Caso acesso a uma chave que não existe exibirá o erro KeyError
 
-#Forma 2 - Recomendada - Acessando via get
+#FORMA 2 - RECOMENDADA - ACESSANDO VIA GET
 
 print(paises.get('br'))
 print(paises.get('ru'))
@@ -105,13 +105,13 @@ receita = {
 print(receita)
 print(type(receita))
 
-#Forma 1
+#FORMA 1
 
 receita['abr'] = 350
 
 print(receita)
 
-#Forma 2
+#FORMA 2
 
 novo_dado = {'mai': 500}
 
@@ -273,7 +273,10 @@ print(pessoa)
 
 veja = {}.fromkeys('teste', 'valor')
 print(veja)
-#dicionario não tem repetição de chave
+# dicionario não tem repetição de chave
 
 novo = {}.fromkeys(range(1, 10), 'novo')
 print(novo)
+
+
+teste

@@ -29,7 +29,8 @@ if a < 9:
 print(msg)
 
 
-3 - TypeError: Ocorre quando uma função/ação/operação é aplicado a um tipo errado
+3 - TypeError: Ocorre quando uma função/ação/operação
+ é aplicado a um tipo errado
 
 print(len(5))
 
@@ -81,4 +82,4 @@ Exceptions and Erros são sinonimos em programação
 def mamamia():
 
 
-print mamamia
+print(mamamia())

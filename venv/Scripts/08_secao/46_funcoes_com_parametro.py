@@ -49,6 +49,7 @@ print(outra(a, b, 'robert '))
 
 '''
 
+
 def nome_completo(nome, sobrenome):
     print(f'O nome completo é {nome} {sobrenome}')
 
@@ -61,12 +62,14 @@ nome_completo(nome=nome, sobrenome=sobrenome)
 nome_completo(nome='June', sobrenome='Ribeiro')
 nome_completo(sobrenome='Jemima', nome='Santo Antonio')
 
+
 def soma_impares(numeros):
     total = 0
     for i in numeros:
         if i % 2 != 0:
             total = total + i
     return total
+
 
 lista = [1, 2, 3, 4, 5, 6, 7]
 

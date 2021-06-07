@@ -40,7 +40,8 @@ print(list(res_dois))
 # A diferença entre map() e filter()
 
 # map retorna valores
-# filter sempre retorna True ou False, o booleano faz o dado ser selecionado
+# filter sempre retorna True ou False, o booleano 
+# faz o dado ser selecionado
 
 
 # Exemplo mais complexo
